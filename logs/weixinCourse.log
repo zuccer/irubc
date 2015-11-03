@@ -1,0 +1,14 @@
+[INFO ] 2015-10-29 13:39:28,468 org.zucc.weixin.main.MenuManager 菜单创建成功！
+[ERROR] 2015-10-29 13:46:21,171  org.zucc.course.util.MenuUtil 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [5OLkmA0605vr23]
+[INFO ] 2015-10-29 13:46:21,171 org.zucc.weixin.main.MenuManager 菜单创建失败！
+[ERROR] 2015-10-29 13:46:53,875  org.zucc.course.util.MenuUtil 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [k1uqna0638vr21]
+[INFO ] 2015-10-29 13:46:53,875 org.zucc.weixin.main.MenuManager 菜单创建失败！
+[ERROR] 2015-10-29 13:48:05,718  org.zucc.course.util.MenuUtil 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [3OTfSA0710vr22]
+[INFO ] 2015-10-29 13:48:05,718 org.zucc.weixin.main.MenuManager 菜单创建失败！
+[ERROR] 2015-10-29 13:49:05,046  org.zucc.course.util.MenuUtil 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [.P0tFa0769vr19]
+[INFO ] 2015-10-29 13:49:05,046 org.zucc.weixin.main.MenuManager 菜单创建失败！
+[ERROR] 2015-10-29 13:50:20,718  org.zucc.course.util.MenuUtil 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [G_ryWa0845vr21]
+[INFO ] 2015-10-29 13:50:20,718 org.zucc.weixin.main.MenuManager 菜单创建失败！
+[ERROR] 2015-10-29 13:51:07,812  org.zucc.course.util.MenuUtil 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [c_K7BA0892vr18]
+[INFO ] 2015-10-29 13:51:07,812 org.zucc.weixin.main.MenuManager 菜单创建失败！
+[INFO ] 2015-10-29 14:22:23,500 org.zucc.weixin.main.MenuManager 菜单创建成功！

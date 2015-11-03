@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="irubc"
+  id="myeclipse.1381765245555"
+  context-root="/irubc"
+  j2ee-spec="5.0"
+  archive="irubc.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+
