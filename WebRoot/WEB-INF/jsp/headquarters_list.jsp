@@ -40,6 +40,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <button data-toggle="modal" data-target="#tan1" type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 查看</button>
                     <button data-toggle="modal" data-target="#tan2" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> 添加</button>
                     <button data-toggle="modal" data-target="#tan3" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> 编辑</button>
+                    <button data-toggle="modal" data-target="#tan4" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> 认证为讲师</button>
                     <button data-toggle="modal" data-target="#groupsDel" type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> 删除</button>
                 </div>
                 <table width="100%" cellspacing="0" class="table table-bordered table-hover">
@@ -430,7 +431,134 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	    </div><!-- /.modal-content -->
 	  </div><!-- /.modal-dialog -->
 	</div>
-	
+	<!---弹框-->
+	<div aria-hidden="true" style="display: none;" id="tan4" class="modal fade">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title">添加讲师</h4>
+	      </div>
+	      <div class="modal-body">
+	        <div class="form-horizontal">
+                <div class="form-group">
+                      <label for="ds_host" class="col-sm-2 control-label"><span class="text-danger">*</span>讲师真实姓名</label>
+                      <div class="col-sm-4">
+                         <input type="text"  id="ds_host" class="form-control">
+                      </div>
+                      <label for="ds_name" class="col-sm-2 control-label"><span class="text-danger">*</span>讲师类别</label>
+                      <div class="col-sm-4">
+                        <select class="form-control"  >
+						  	<option>学霸</option>
+						  	<option>名师</option>
+						</select>
+                      </div>
+                   </div>
+                  <div class="form-group">
+                      <label for="ds_name" class="col-sm-2 control-label">认证状态</label>
+                     <div class="col-sm-4">
+                         <input type="text" id="ds_host" class="form-control" placeholder="审核通过" readonly/>
+                      </div>
+                      <label for="ds_host" class="col-sm-2 control-label">联系电话</label>
+                      <div class="col-sm-4">
+                         <input type="text" id="ds_host" class="form-control">
+                      </div>
+                   </div>
+                   <div class="form-group">
+                      
+                      <label for="ds_name" class="col-sm-2 control-label">自评标签</label>
+                      <div class="col-sm-4">
+                         <label class="checkbox-inline">
+						  <input type="checkbox" id="inlineCheckbox1" value="option1"> 活泼开朗
+						</label>
+						<label class="checkbox-inline">
+						  <input type="checkbox" id="inlineCheckbox2" value="option2"> 活泼开朗
+						</label>
+						<label class="checkbox-inline">
+						  <input type="checkbox" id="inlineCheckbox3" value="option3"> 活泼开朗
+						</label>
+                      </div>
+                   </div>
+                  <div class="form-group">
+                      <label for="ds_host" class="col-sm-2 control-label">教龄</label>
+                      <div class="col-sm-4">
+                         <select class="form-control" >
+						  	<option>1年以下</option>
+						  	<option>1~3年</option>
+						  	<option>3~5年</option>
+						  	<option>5年以上</option>
+						</select>
+                      </div>
+                   </div>
+                  <div class="form-group">
+                      <label for="ds_host" class="col-sm-2 control-label">一句话简介</label>
+                      <div class="col-sm-10">
+                         <input type="text"  id="ds_host" class="form-control">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="ds_host" class="col-sm-2 control-label">讲师详细介绍</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" rows="3"></textarea>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="ds_host" class="col-sm-2 control-label">教学经历</label>
+                      <div class="col-sm-3">
+                        <input type="text"  id="ds_host" class="form-control"  placeholder="开始时间" />
+                      </div>
+                      <div class="col-sm-3">
+                        <input type="text"  id="ds_host" class="form-control"  placeholder="结束时间"/>
+                      </div>
+                      <div class="col-sm-4">
+                        <input type="text"  id="ds_host" class="form-control" placeholder="具体内容"/>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="ds_host" class="col-sm-2 control-label"></label>
+                      <div class="col-sm-3">
+                        <input type="text"  id="ds_host" class="form-control"  placeholder="开始时间"/>
+                      </div>
+                      <div class="col-sm-3">
+                        <input type="text"  id="ds_host" class="form-control"  placeholder="结束时间"/>
+                      </div>
+                      <div class="col-sm-4">
+                        <input type="text"  id="ds_host" class="form-control" placeholder="具体内容"/>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="ds_host" class="col-sm-2 control-label"></label>
+                      <div class="col-sm-3">
+                        <input type="text"  id="ds_host" class="form-control"  placeholder="开始时间"/>
+                      </div>
+                      <div class="col-sm-3">
+                        <input type="text"  id="ds_host" class="form-control"  placeholder="结束时间"/>
+                      </div>
+                      <div class="col-sm-4">
+                        <input type="text"  id="ds_host" class="form-control" placeholder="具体内容"/>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                        <label for="ds_host" class="col-sm-2 control-label">个人照片上传</label>
+                        <input type="file" id="exampleInputFile">
+                   </div>
+                   <div class="form-group">
+                        <label for="ds_host" class="col-sm-2 control-label">证书图片上传</label>
+                        <input type="file" id="exampleInputFile">
+                   </div>
+                   <div class="form-group">
+                        <label for="ds_host" class="col-sm-2 control-label">身份证上传</label>
+                        <input type="file" id="exampleInputFile">
+                   </div>
+            </div>
+	      </div>
+	      <div style=" margin-top:0;" class="modal-footer">
+	        <a class="btn btn-primary btn-xs" href="javascript:void(0)" data-dismiss="modal">提交</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div>
+
     <!--
     ================================================
     JAVASCRIPT

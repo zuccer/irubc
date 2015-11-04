@@ -23,19 +23,19 @@
                 <!-- Left navbar -->
                 <ul class="nav navbar-nav">
                 	<li class="dropdown">
-                        <a href="index.jsp" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+                        <a href="index.jsp" class="dropdown-toggle" >首页</a>
                     </li>
                     <li class="dropdown">
-                        <a href="teacher_list.jsp" class="dropdown-toggle" data-toggle="dropdown">讲师管理</a>
+                        <a href="teacher_list.jsp" class="dropdown-toggle" >讲师管理</a>
                     </li>
                     <li class="dropdown">
-                        <a href="classroom_list.jsp" class="dropdown-toggle" data-toggle="dropdown">教室管理</a>
+                        <a href="classroom_list.jsp" class="dropdown-toggle" >教室管理</a>
                     </li>
                     <li class="dropdown">
-                        <a href="headquarters_list.jsp" class="dropdown-toggle" data-toggle="dropdown">信息维护</a>
+                        <a href="headquarters_list.jsp" class="dropdown-toggle" >信息维护</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">提现审核</a>
+                        <a href="#" class="dropdown-toggle" >提现审核</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Packages <span class="badge">11</span></a>
